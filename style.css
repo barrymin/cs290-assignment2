@@ -29,5 +29,8 @@ tbody tr:nth-child(2),tbody tr:nth-child(4),tbody tr:nth-child(6){
 background-color: lightblue;
 }
 
+dt:hover  + dd{
+color: purple;
+}
 
 
