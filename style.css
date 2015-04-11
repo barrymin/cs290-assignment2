@@ -33,4 +33,18 @@ dt:hover  + dd{
 background-color: purple;
 }
 
+.outer_content{
+background-color: pink;
+width: 75%;
+position: absolute; 
+margin-top: 20px;
+}
+
+.inner_content{
+background-color: lightblue;
+width: 75%;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
 
