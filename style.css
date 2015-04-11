@@ -30,7 +30,7 @@ background-color: lightblue;
 }
 
 dt:hover  + dd{
-color: purple;
+background-color: purple;
 }
 
 
