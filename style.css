@@ -4,11 +4,12 @@ border :1px solid black;
 }
 td{
 border :1px solid black;
-width: 1px;
+width: 5px;
 }
 th{
 font-style: italic;
 font-weight: normal;
+padding: 5px;
 }
 thead  th{
 font-style: normal;
@@ -33,10 +34,15 @@ dt:hover  + dd{
 background-color: purple;
 }
 
+form{
+border: 1px solid black;
+padding: 5px;
+}
+
 .outer_content{
 background-color: pink;
 width: 75%;
-position: absolute; 
+margin-right: auto;
 margin-top: 20px;
 }
 
@@ -46,5 +52,11 @@ width: 75%;
 margin-right: auto;
 margin-left: auto;
 text-align: center;
+}
+
+img{
+float: left;
+width: 100px;
+height: 125px;
 }
 
