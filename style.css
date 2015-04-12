@@ -1,62 +1,61 @@
-
 table {
-border :1px solid black;
+  border :1px solid black;
 }
 td{
-border :1px solid black;
-width: 5px;
+  border :1px solid black;
+  width: 5px;
 }
 th{
-font-style: italic;
-font-weight: normal;
-padding: 5px;
+  font-style: italic;
+  font-weight: normal;
+  padding: 5px;
 }
 thead  th{
-font-style: normal;
-font-weight: bold;
+  font-style: normal;
+  font-weight: bold;
 }
 td:nth-child(2){
-color: red;
+  color: red;
 }
 td:nth-child(4){
-color: blue;
+  color: blue;
 }
 
 tbody tr:nth-child(1),tbody tr:nth-child(3),tbody tr:nth-child(5){
-background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 tbody tr:nth-child(2),tbody tr:nth-child(4),tbody tr:nth-child(6){
-background-color: lightblue;
+  background-color: lightblue;
 }
 
 dt:hover  + dd{
-background-color: purple;
+  background-color: purple;
 }
 
 form{
-border: 1px solid black;
-padding: 5px;
+  border: 1px solid black;
+  padding: 5px;
 }
 
 .outer_content{
-background-color: pink;
-width: 75%;
-margin-right: auto;
-margin-top: 20px;
+  background-color: pink;
+  margin-right: auto;
+  margin-top: 20px; 
+  width: 75%;
 }
 
 .inner_content{
-background-color: lightblue;
-width: 75%;
-margin-right: auto;
-margin-left: auto;
-text-align: center;
+  background-color: lightblue;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 75%;
 }
 
 img{
-float: left;
-width: 100px;
-height: 125px;
+  float: left;
+  height: 125px;
+  width: 100px;
 }
 
